@@ -1,10 +1,9 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
 streamlit
 opencv-python-headless
 numpy
 matplotlib
 pillow
-PyMaxflow
 torch
 torchvision
 torchaudio
---extra-index-url https://download.pytorch.org/whl/cpu
