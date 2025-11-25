@@ -9,4 +9,5 @@ torchvision
 torchaudio
 joblib
 scikit-image
+scikit-learn
 PyMaxflow
