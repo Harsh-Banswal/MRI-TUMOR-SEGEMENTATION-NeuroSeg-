@@ -1,9 +1,9 @@
-#MRI Brain Tumor Detection & Segmentation
+MRI Brain Tumor Detection & Segmentation
 
 Automated Web System using **UNet**, **GrabCut**, **MaxFlow**, and **Random Forest**.
 
 
-#Project Overview
+Project Overview
 This project performs **MRI brain tumor segmentation & classification** using:
 - UNet (deep learning segmentation)
 - GrabCut & MaxFlow (graph-based segmentation)
@@ -13,7 +13,7 @@ This project performs **MRI brain tumor segmentation & classification** using:
 
 ---
 
-#Project Structure
+Project Structure
 ```
 
 mri-tumor-detection
@@ -29,7 +29,7 @@ mri-tumor-detection
 ```
 
 
-## Workflow Pipeline
+Workflow Pipeline
 ```
 Upload MRI
      ↓
@@ -47,20 +47,20 @@ Streamlit Web App → Final Output
 
 ---
 
-#Feature Extraction (8 Features)
+Feature Extraction (8 Features)
 | Type           | Features |
 | Shape          | Area, Perimeter, Eccentricity, Solidity |
 | Texture (GLCM) | Contrast, Energy, Homogeneity, Correlation |
 
 ---
 
-#Run the Web App
+Run the Web App
 ```bash
 streamlit run web_app.py
 ```
  
 
-#Segmentation Models
+Segmentation Models
 | Model | Type | Output |
 |-------|------|--------|
 | UNet | Deep Learning | Probability Map |
@@ -69,7 +69,7 @@ streamlit run web_app.py
 
 ---
 
-#Libraries Used
+Libraries Used
 | Category           | Libraries                                        |
 | ------------------ | ------------------------------------------------ |
 | Deep Learning      | PyTorch, UNet                                    |
@@ -81,7 +81,7 @@ streamlit run web_app.py
  
 
 
-#Segmentation Techniques
+Segmentation Techniques
 1) UNet (Deep Learning Based)
 
 Pixel-wise segmentation
@@ -117,7 +117,7 @@ From segmented tumor region using regionprops() + GLCM:
 
 These are used to train Random Forest classifier.
 
-#Output Categories
+Output Categories
 ✔ Glioma 
 ✔ Meningioma 
 ✔ Pituitary Tumor 
