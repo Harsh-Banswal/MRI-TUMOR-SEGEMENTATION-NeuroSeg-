@@ -8,3 +8,5 @@ torch
 torchvision
 torchaudio
 joblib
+scikit-image
+PyMaxflow
