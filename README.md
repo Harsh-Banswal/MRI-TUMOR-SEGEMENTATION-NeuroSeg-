@@ -4,6 +4,13 @@ Automated Web System using **UNet**, **GrabCut**, **MaxFlow**, and **Random Fore
 
 All the required libraries are in the requirements.txt file just run (pip install -r requirements.txt)
 
+
+Dataset 
+1) For Unet segmentation model 
+     link : https://www.kaggle.com/datasets/briscdataset/brisc2025
+2) For Classification Model
+     link : https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
+
 Project Overview
 This project performs **MRI brain tumor segmentation & classification** using:
 - UNet (deep learning segmentation)
