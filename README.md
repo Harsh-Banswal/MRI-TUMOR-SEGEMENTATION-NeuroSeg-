@@ -2,7 +2,7 @@ MRI Brain Tumor Detection & Segmentation
 
 Automated Web System using **UNet**, **GrabCut**, **MaxFlow**, and **Random Forest**.
 
-All the required libraries are in the req.txt file just run (pip install -r req.txt)
+All the required libraries are in the requirements.txt file just run (pip install -r requirements.txt)
 
 Project Overview
 This project performs **MRI brain tumor segmentation & classification** using:
